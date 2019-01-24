@@ -34,7 +34,7 @@ public static XSSFSheet sheet;
 		try {
 			fis = new FileInputStream(file);
 			XSSFWorkbook wb=new XSSFWorkbook(fis);
-			if(SheetName.equals("")){
+			if(!SheetName.equals("")){
 			sheet=wb.getSheet(SheetName);
 			}else{
 				sheet=wb.getSheetAt(SheetIndex);
