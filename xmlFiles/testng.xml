@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test thread-count="5" name="Test">
+      <parameter name="browserName" value="chrome"/>
+      <classes>
+          <class name="tasksToDevelop.MMTFlightSearch"></class>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test2">
+      <parameter name="browserName" value="chrome"/>
+      <classes>
+          <class name="tasksToDevelop.DropdownValuesInTripHeader"></class>
+      </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test3">
+      <parameter name="browserName" value="chrome"/>
+      <classes>
+          <class name="tasksToDevelop.LoginFieldValidation"></class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

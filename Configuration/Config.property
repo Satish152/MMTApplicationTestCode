@@ -1,0 +1,6 @@
+ChromeBrowser=/ZenqTask/drivers/chromedriver.exe
+FirefoxBrowser=/ZenqTask/drivers/geckodriver.exe
+IEbrowser=/ZenqTask/drivers/IEDriverServernew.exe
+URL=https://www.makemytrip.com/
+ScreenShotPath=H:\\workspace\\ZenqTask\\FailedScreenShots
+TestDataSheetpath=H:\\workspace\\ZenqTask\\TestData\\BookingDetails.xlsx
